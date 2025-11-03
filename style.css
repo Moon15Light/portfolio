@@ -1,0 +1,25 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, Helvetica, sans-serif;}
+body{background:#0a0f24;color:#e3eaff;overflow-x:hidden;}
+header{padding:80px 20px;text-align:center;animation:fadeIn 1.2s ease;} 
+header h1{font-size:48px;font-weight:800;color:#4fc3f7;} 
+header p{font-size:20px;margin-top:10px;color:#bbdefb;}
+nav{background:#020617;padding:12px;text-align:center;position:sticky;top:0;z-index:10;} 
+nav a{color:#90caf9;margin:0 18px;text-decoration:none;font-weight:600;font-size:15px;} 
+nav a:hover{color:white;} 
+section{padding:60px 20px;max-width:1000px;margin:auto;animation:fadeUp 1.2s ease;} 
+h2{font-size:30px;margin-bottom:18px;color:#4fc3f7;border-left:5px solid #4fc3f7;padding-left:15px;} 
+.about p{line-height:1.7;font-size:18px;color:#cfe6ff;} 
+.profile-box{text-align:center;margin-bottom:30px;} 
+.profile-box img{width:160px;height:160px;border-radius:50%;border:4px solid #4fc3f7;box-shadow:0px 0px 18px rgba(79,195,247,0.5);} 
+.skills ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:15px;} 
+.skills ul li{background:#102040;color:#4fc3f7;padding:10px 18px;border-radius:20px;font-size:14px;border:1px solid #4fc3f7;} 
+.projects .card{background:#0f1a45;padding:22px;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.6);margin-bottom:25px;transition:0.3s;} 
+.projects .card:hover{transform:translateY(-6px);box-shadow:0 8px 18px rgba(0,0,0,0.7);} 
+.projects .card h3{margin-bottom:10px;color:#4fc3f7;} 
+.projects .card p{line-height:1.6;color:#d9e6ff;} 
+.contact p{font-size:18px;margin:8px 0;color:#cfe6ff;} 
+footer{background:#020617;color:#88b5ff;text-align:center;padding:18px;margin-top:40px;font-size:14px;} 
+a.btn{background:#4fc3f7;color:#001728;padding:12px 22px;display:inline-block;margin-top:15px;text-decoration:none;border-radius:6px;font-weight:700;} 
+a.btn:hover{background:#82e9ff;} 
+@keyframes fadeIn{from{opacity:0;transform:translateY(-30px);}to{opacity:1;transform:translateY(0);} }
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);} }
